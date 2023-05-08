@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "Expense-Tracker",
+    "name": "Expense Tracker",
     "slug": "Expense-Tracker",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -18,16 +18,24 @@
       "**/*"
     ],
     "ios": {
+      "buildNumber": "1.0.0",
       "supportsTablet": true
     },
     "android": {
+      "versionCode": 1,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.rohit_505.ExpenseTracker"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "654d721f-f95e-4a6d-bd76-e4dde4a1fd66"
+      }
     }
   }
 }
